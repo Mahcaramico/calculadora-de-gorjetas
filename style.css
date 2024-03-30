@@ -117,7 +117,7 @@ main{
 }
 .resultados{
     background-color: var(--green-880);
-    border-radius: 0.9375;
+    border-radius: 0.9375rem;
     padding: 1.5rem;
 }
 
@@ -136,4 +136,24 @@ main{
 .resultados p strong {
     color: var(--withe);
     font-size: 1rem;
+}
+
+.resultados div > strong {
+    color: var(--Light-green);
+    font-size: 2rem;
+}
+
+.resultados .gorjeta-total{
+    margin-bottom: 1.25rem;
+}
+
+.resultados .total {
+    margin-bottom: 2rem;
+}
+
+.resultados button{
+    width: 100%;
+    background: var(--Light-green);
+    border: none;
+    border-radius: 0.3125rem;
 }

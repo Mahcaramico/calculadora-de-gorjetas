@@ -112,6 +112,8 @@ main{
     color: var(--green-300);
 }
 
+.pessoa 
+
 .pessoas #erro {
     display: none;
 }
